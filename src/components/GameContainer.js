@@ -3,6 +3,7 @@ import Header from "./Header";
 import Banner from "./Banner";
 import Main from "./Main";
 import Footer from "./Footer";
+import Style from "style-it";
 
 class GameContainer extends Component {
     state = {
@@ -157,6 +158,7 @@ class GameContainer extends Component {
     render() {
         return (
             <div>
+
                 <Banner />
                 <Header
                     score={this.state.score}
